@@ -6,7 +6,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 /**
  * @Author：aiwei
- * @Description：TODO
+ * @Description：StartApp
  * @CreateDate：2019/5/14 14:30
  */
 @EnableDiscoveryClient
