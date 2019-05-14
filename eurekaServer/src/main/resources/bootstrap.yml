@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: eureka
+  profiles:
+    active: test
+  security:
+    user:
+      name: root
+      password: root
