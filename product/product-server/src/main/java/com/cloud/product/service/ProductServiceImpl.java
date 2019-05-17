@@ -6,7 +6,6 @@ import com.cloud.product.repository.ProductCategoryRepository;
 import com.cloud.product.repository.ProductInfoRepository;
 import com.cloud.product.vo.ProductInfoVo;
 import com.cloud.product.vo.ProductResultVo;
-import com.fasterxml.jackson.databind.util.BeanUtil;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

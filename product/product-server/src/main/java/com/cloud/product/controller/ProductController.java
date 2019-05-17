@@ -17,7 +17,7 @@ import java.util.List;
  * @CreateDate：2019/5/15 9:10
  */
 @RestController
-@RequestMapping("/product")
+@RequestMapping("/com/cloud/product")
 public class ProductController {
 
 	@Autowired
