@@ -2,7 +2,6 @@ package com.cloud.order.controller;
 
 import com.cloud.order.dto.CreateOrderDto;
 import com.cloud.order.enums.FormValid;
-import com.cloud.order.exception.OrderException;
 import com.cloud.order.service.OrderService;
 import com.cloud.order.utils.ResultVoUtil;
 import com.cloud.order.vo.ResultVo;
@@ -24,7 +23,7 @@ import java.util.Map;
  * @CreateDate：2019/5/15 14:04
  */
 @RestController
-@RequestMapping("/order")
+@RequestMapping("/com/cloud/order")
 @Slf4j
 public class OrderController {
 	@Autowired
