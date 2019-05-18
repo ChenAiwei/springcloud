@@ -1,4 +1,4 @@
-package com.cloud.product.vo;
+package com.cloud.poruct.vo;
 
 import lombok.Data;
 

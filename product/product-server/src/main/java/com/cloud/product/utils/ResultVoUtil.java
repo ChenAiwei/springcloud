@@ -1,6 +1,8 @@
 package com.cloud.product.utils;
 
-import com.cloud.product.vo.ResultVo;
+import com.cloud.poruct.vo.ResultVo;
+import com.cloud.product.enums.Error;
+import org.apache.commons.lang.enums.Enum;
 
 /**
  * @Author：aiwei
@@ -18,6 +20,14 @@ public class ResultVoUtil {
 		resultVo.setCode(0);
 		resultVo.setMsg("成功");
 		resultVo.setData(object);
+		return resultVo;
+	}
+
+	public static ResultVo error(Error error, String message) {
+		ResultVo resultVo = new ResultVo();
+		resultVo.setCode(error.getCode());
+		resultVo.setMsg(message);
+		resultVo.setData(null);
 		return resultVo;
 	}
 }

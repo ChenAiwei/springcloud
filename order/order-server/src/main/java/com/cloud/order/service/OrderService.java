@@ -10,5 +10,5 @@ public interface OrderService {
 	 * 订单创建
 	 * @param dto
 	 */
-	CreateOrderDto  createOrder(CreateOrderDto dto);
+	CreateOrderDto  createOrder(CreateOrderDto dto) throws Exception;
 }

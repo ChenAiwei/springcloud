@@ -1,6 +1,8 @@
 package com.cloud.product.service;
 
-import com.cloud.product.vo.ProductResultVo;
+import com.cloud.poruct.dto.ProductDetailDto;
+import com.cloud.poruct.vo.ProductDetailVo;
+import com.cloud.poruct.vo.ProductResultVo;
 
 import java.util.List;
 
@@ -15,4 +17,11 @@ public interface ProductService {
 	 * @return
 	 */
 	List<ProductResultVo> listAll();
+
+	/**
+	 * 订单扣库存
+	 * @param productDetailDtoList
+	 * @return
+	 */
+	List<ProductDetailVo> reduceProduct(List<ProductDetailDto> productDetailDtoList) throws Exception;
 }

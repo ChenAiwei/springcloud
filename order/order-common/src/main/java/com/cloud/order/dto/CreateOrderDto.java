@@ -1,5 +1,6 @@
 package com.cloud.order.dto;
 
+import com.cloud.poruct.dto.ProductDetailDto;
 import lombok.Data;
 
 import javax.validation.Valid;
@@ -22,6 +23,6 @@ public class CreateOrderDto {
 	@NotEmpty(message = "openid不能为空")
 	private String openid;
 	@Valid
-	private List<OrderItem> items;
+	private List<ProductDetailDto> items;
 	private String orderId;
 }
